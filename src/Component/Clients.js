@@ -5,7 +5,7 @@ import { Adresse } from "./Adresse.js"
 export class Clients extends Component{
   constructor(props){
     super()
-    this.state = {nom : props.nom, prenom : props.prenom, telephone : props.telephone,statut:props.statut, adresse :{rue : props.rue, ville : props.ville, codePostal : props.codePostal}}
+    this.state = {}
   }
 
   render(){

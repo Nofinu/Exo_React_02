@@ -5,7 +5,7 @@
   overflow: hidden;
   border-spacing: 0;
   border: solid black 1px;
-  /* color: white; */
+  color: white;
 }
 
 .tableContact>tbody>tr>td{
@@ -17,22 +17,18 @@ td{
   height: 35px;
 }
 
-/* .tableContact>tbody>tr>td:nth-child(even){
+.tableContact>tbody>tr>td:nth-child(even){
   background-color: rgb(27, 27, 27);
 }
 
 .tableContact>tbody>tr>td:nth-child(odd){
   background-color: rgb(77, 77, 77);
-} */
-
-.red{
-  background-color: red;
 }
 
-.tableContact>tbody>tr>td:nth-child(odd).red{
-  background-color: rgba(202, 50, 50, 0.712);
+.tableContact>tbody>tr.red>td:nth-child(odd){
+  background-color: rgb(177, 52, 52);
 }
 
-.tableContact>tbody>tr>td:nth-child(even).red{
-  background-color: rgba(202, 50, 50, 0.712);
+.tableContact>tbody>tr.red>td:nth-child(even){
+  background-color: rgba(141, 24, 24, 0.712);
 }
